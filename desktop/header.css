@@ -1,0 +1,200 @@
+header{
+    width: 100%;
+    height: 170px;
+    
+    .banner{
+        width: 100%;
+        height: 60px;
+        .img{
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+    }
+    .center{
+        width: 100%;
+        height: 70px;
+        
+        display: flex;
+        
+        .logo{
+            width: 10%;
+            height: inherit;
+           
+            display:    flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .search{
+            width: 75%;
+            height: inherit;
+            
+            display: flex;
+                flex-flow: row;
+                align-items: center;
+                position: relative;
+            & input{
+                width: 50%;
+                height: 40px;
+                border-radius: 7px;
+                border: unset;
+                background:#F0F0F1;
+                font-family: fonti;
+                padding-right: 45px;
+                margin-right: 10px;
+                font-size: 12px;
+            
+            }
+            & svg{
+                position: absolute;
+                top: 22px;
+                left: 1100px;
+                fill: rgb(162, 162, 162);
+            }
+        }
+        .login{
+            width: 15%;
+            height: inherit;
+            
+            position: relative;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            .link{  
+                width: 57%;
+                height: 40px;
+                border: 1px solid rgb(162, 162, 162);
+                border-radius: 5px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2px;
+                font-size: 12px;
+                font-family: fonti;
+                color: black;
+                
+                
+
+              
+
+            }
+            
+            .link2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 5px;
+            }
+            
+                
+            }
+
+        }
+    .menu{
+    
+      width:100% ;
+      height: 40px;
+    
+      display: flex;
+      flex-flow: row;
+    .right{
+        
+        width: 85%;
+        height: inherit;
+        
+        padding-right: 18px;
+        
+
+      }
+      & nav{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content:flex-start;
+        gap: 20px;
+        .item{
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: row;
+            & a{
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: row;
+                line-height: 40px;
+                text-decoration: none;
+                color: rgb(97, 97, 97);
+                font-size: 12px;
+                gap: 5px;
+                
+
+            }
+            
+          
+            }
+            .menu1{
+                font-size: 16px;
+                font-weight: bold;
+                color: black;
+
+            }
+           
+            
+        }
+      }
+      .left{
+            width: 15%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 5px;
+            font-size: 12px;
+        .location{
+            display: flex;
+            flex-flow: row;
+            padding-left: 20px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            color: rgb(97, 97, 97);
+            position: relative;
+            .text_loc{
+                background-color: #3f4064;
+                width: 174px;
+                height: 45px;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 5px;
+                color: #F0F0F1;
+                top: 30px;
+                display: none;
+                font-weight: lighter;
+                position:absolute;
+                z-index: 1000;
+            }
+            &:hover .text_loc{
+                display: block;
+            }
+        }
+        .item:hover{
+            border-bottom: 0.5px solid red;
+        }
+
+      }
+    }
+
+
+
+
+
+    
+ 

@@ -1,0 +1,596 @@
+.personal_item2{
+    width: 100%;
+    height: 433px;
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    .item_border2{
+        width: 90%;
+        height: 417px;
+        
+        justify-content: center;
+        display: flex;
+        flex-flow: row;
+        border-radius: 20px;
+        border: 1.5px solid #e4e4e6;
+        .all_laptop{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            & a{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-flow: row;
+                font-size: 12px;
+                color: #58d2e7;
+                text-decoration: none;
+            }
+        }
+        .laptop_item{
+            display: flex;
+            flex-flow: column;
+           
+            width: 338px;
+            height: inherit;
+            border-left: 1px solid #e4e4e6;
+            .laptop_text{
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: 70px;
+                padding-right: 10px;
+                
+                justify-content: center;
+               
+                
+    
+                gap: 6px;
+                & h3{
+                    font-size: 15px;
+                    
+                }
+                & span{
+                    font-size: 12px;
+                    color: #9f919e;
+                }
+            }
+            .laptop_div{
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10px;
+                gap: 20px;
+    
+                .laptop_right{
+                    display: flex;
+                    flex-flow: column;
+                    
+                    
+                    .laptop_photo{
+                    
+               
+
+                    
+                    
+                    & img{
+                        width: 130px;
+                        
+                        
+                      
+                    }
+                }
+                }
+                .laptop_left{
+                    display: flex;
+                    flex-flow: column;
+            
+                    
+                    & img{
+                        width: 130px;
+                      
+                    }
+                
+                }
+            }
+    
+        }
+            /* bag */
+        .all_shoes{
+        display: flex;
+        flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            & a{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-flow: row;
+                font-size: 12px;
+                color: #58d2e7;
+                text-decoration: none;
+            }
+        }
+        .shoes_item{
+            display: flex;
+            flex-flow: column;
+           
+            width: 338px;
+            height: inherit;
+            border-left: 2px solid #e4e4e6;
+            .shoes_text{
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: 70px;
+                padding-right: 10px;
+                
+                justify-content: center;
+    
+                gap: 6px;
+                & h3{
+                    font-size: 15px;
+                    
+                }
+                & span{
+                    font-size: 12px;
+                    color: #9f919e;
+                }
+            }
+            .shoes_div{
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10px;
+                gap: 20px;
+                
+    
+                .shoes_right{
+                    display: flex;
+                    flex-flow: column;
+                    gap: 10px;
+                  
+                    
+                    
+                    
+                    
+                    & img{
+                        width: 130px;
+                        
+                        
+                      
+                    }
+                }
+                .shoes_left{
+                    display: flex;
+                    flex-flow: column;
+                    gap: 10px;
+                    & img{
+                        width: 130px;
+                      
+                    }
+                }
+            }
+    
+        }
+    
+    
+ /* cream */
+ .all_gozini{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    & a{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #58d2e7;
+        text-decoration: none;
+    }
+ }
+ .gozini_item{
+    display: flex;
+    flex-flow: column;
+   
+    width: 338px;
+    height: inherit;
+    border-left: 1px solid #e4e4e6;
+    .gozini_text{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: 70px;
+        padding-right: 10px;
+      
+        justify-content: center;
+
+        gap: 6px;
+        & h3{
+            font-size: 15px;
+            
+        }
+        & span{
+            font-size: 12px;
+            color: #9f919e;
+        }
+    }
+    .gozini_div{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        gap: 20px;
+        
+
+        .gozini_right{
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+          
+            
+            
+            
+            
+            & img{
+                width: 130px;
+                
+                
+              
+            }
+        }
+        .gozini_left{
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+            & img{
+                width: 130px;
+              
+            }
+        }
+    }
+
+}
+    
+    
+    
+    /* watch */
+    .all_note{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        & a{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-flow: row;
+            font-size: 12px;
+            color: #58d2e7;
+            text-decoration: none;
+        }
+    }
+    .note_item{
+        display: flex;
+        flex-flow: column;
+       
+        width: 338px;
+        height: inherit;
+      
+        .note_text{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: 70px;
+            padding-right: 10px;
+            
+            justify-content: center;
+    
+            gap: 6px;
+            & h3{
+                font-size: 15px;
+                
+            }
+            & span{
+                font-size: 12px;
+                color: #9f919e;
+            }
+        }
+        .note_div{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+            gap: 20px;
+            
+    
+            .note_right{
+                display: flex;
+                flex-flow: column;
+                gap: 10px;
+              
+                
+                
+                
+                
+                & img{
+                    width: 130px;
+                    
+                    
+                  
+                }
+            }
+            .note_left{
+                display: flex;
+                flex-flow: column;
+                gap: 10px;
+                & img{
+                    width: 130px;
+                  
+                }
+            }
+        }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    }
